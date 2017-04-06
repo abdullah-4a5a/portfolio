@@ -1,0 +1,96 @@
+@media (max-width: 1200px) {
+    .links-group {
+        width: 800px;
+        -webkit-column-count: 2;
+        column-count: 2;
+        -mox-zolumn-count: 2;
+    }
+    
+    #plaatje     {
+        margin-left: 37%;
+        margin-top: 35px;
+        width: 200px;
+        height: 100px;
+    }
+}
+
+@media (max-width: 800px) {
+    .links-group {
+        width: 600px;
+    }
+    
+        
+    
+    .group {
+        /*width: calc(33% - 20px);*/
+    }
+}
+
+@media (max-width: 767px) {
+    .links-group {
+        margin-top: 250px;
+    }
+    
+    button {
+        font-size: 100%;
+    }
+    
+    .panel {
+        font-size: 100%;
+    }
+    
+    .normaleLinks {
+        font-size: 100%;
+    }
+    
+    .specialeLink button{
+        width: 100% !important;
+    }
+    
+    #plaatje {
+        display: none;
+    }
+    
+    #contact{
+    width: 75%;
+    height: auto;
+    margin-top: 290px;
+    margin-left: 10px;
+    margin-right: 10px;
+    }
+    
+    .tekst{
+    padding-top: 0px;
+    width: calc(100% - 20px);
+    display: inline-block;
+    font-size: 20px;
+    }
+}
+
+@media (max-width: 600px) {
+    .links-group {
+        width: 100%;
+        
+    }
+    
+    .group {
+        /*width: calc(100% - 20px);*/
+        /*margin: 10px;*/
+    }
+    
+    button {
+        font-size: 110%;
+    }
+    
+    .panel {
+        font-size: 110%;
+    }
+    
+    .normaleLinks {
+        font-size: 110%;
+    }
+    
+    #plaatje {
+        display: none;
+    }
+}
